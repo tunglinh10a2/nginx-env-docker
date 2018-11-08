@@ -6,7 +6,7 @@ services:
     volumes:
       - ./:/var/www/app
   nginx:
-    image: dung13890/nginx-env
+    image: mrfloat / nginx-env-docker
     restart: always
     volumes_from:
       - application
